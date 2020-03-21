@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^codecorner\.tech$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.codecorner\.tech$
+RewriteRule ^(.*)$ "http\:\/\/codecorner\.co\.uk\/$1" [R=301,L]
+
